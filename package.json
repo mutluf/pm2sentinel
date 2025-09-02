@@ -1,0 +1,22 @@
+{
+  "name": "pm2sentinel",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "pm2 start pm2ecosystem.config.js",
+    "stop": "pm2 stop pm2sentinel",
+    "restart": "pm2 restart pm2sentinel"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/mongoose": "^5.11.96",
+    "@types/node": "^24.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.17.2",
+    "pm2": "^6.0.8"
+  },
+  "type": "module"
+}
